@@ -1,0 +1,18 @@
+POST http://localhost:8080/register/
+Content-Type: application/json
+
+{
+    "userName": "user1",
+    "password": "pass"
+}
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+{
+    "idx": "1",
+    "seq": "sequence1",
+    "ise": "false",
+    "iss": "false"
+}
+
